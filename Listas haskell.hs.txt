@@ -1,0 +1,8 @@
+suma_lista::[Int]->Int
+suma_lista[]=0
+suma_lista(x:xs)=x+suma_lista xs
+
+buscar::[Int]->Int->Boolean
+buscar[] =False
+buscar(x:xs)x=True
+buscar(_:xs)x=buscar xs x
